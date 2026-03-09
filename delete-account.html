@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaburAR — Solicitar eliminación de cuenta</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #F8FAFF;
+            color: #18181B;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .logo h1 {
+            font-size: 28px;
+            color: #2563EB;
+            letter-spacing: -0.5px;
+        }
+        .logo span {
+            display: block;
+            font-size: 14px;
+            color: #71717A;
+            margin-top: 4px;
+        }
+        .card {
+            background: #FFFFFF;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+        }
+        h2 {
+            font-size: 20px;
+            color: #18181B;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #EFF6FF;
+        }
+        p {
+            margin-bottom: 12px;
+            color: #3F3F46;
+            font-size: 15px;
+        }
+        ul {
+            margin: 8px 0 16px 20px;
+            color: #3F3F46;
+            font-size: 15px;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #EFF6FF;
+            border-left: 4px solid #2563EB;
+            padding: 16px;
+            border-radius: 0 12px 12px 0;
+            margin: 16px 0;
+        }
+        .highlight p { margin-bottom: 0; color: #1D4ED8; }
+        .btn {
+            display: inline-block;
+            background: #2563EB;
+            color: #FFFFFF;
+            padding: 14px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 12px;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #1D4ED8;
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        .btn-center {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .warning {
+            background: #FEF2F2;
+            border-left: 4px solid #EF4444;
+            padding: 16px;
+            border-radius: 0 12px 12px 0;
+            margin: 16px 0;
+        }
+        .warning p { margin-bottom: 0; color: #B91C1C; }
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #A1A1AA;
+            font-size: 13px;
+        }
+        a { color: #2563EB; text-decoration: none; }
+        a:hover { text-decoration: underline; color: #1D4ED8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>LaburAR</h1>
+            <span>Solicitar eliminación de cuenta</span>
+        </div>
+
+        <div class="card">
+            <h2>Eliminación de cuenta y datos</h2>
+            <p>En LaburAR respetamos tu derecho a eliminar tu cuenta y todos los datos personales asociados. Si deseás eliminar tu cuenta, podés hacerlo siguiendo las instrucciones a continuación.</p>
+
+            <div class="highlight">
+                <p><strong>La eliminación es permanente e irreversible.</strong> Una vez procesada, no podremos recuperar tu información.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>¿Qué datos se eliminan?</h2>
+            <p>Al solicitar la eliminación de tu cuenta, se borrarán permanentemente los siguientes datos:</p>
+            <ul>
+                <li><strong>Información personal</strong> — nombre, apellido, correo electrónico, número de teléfono.</li>
+                <li><strong>Foto de perfil</strong> — si subiste una.</li>
+                <li><strong>Historial de pedidos</strong> — todos los pedidos realizados o recibidos.</li>
+                <li><strong>Mensajes de chat</strong> — todas las conversaciones.</li>
+                <li><strong>Reseñas escritas</strong> — valoraciones que hayas dejado a otros usuarios.</li>
+                <li><strong>Configuración de cuenta</strong> — preferencias, servicios ofrecidos, disponibilidad.</li>
+            </ul>
+
+            <div class="warning">
+                <p><strong>Nota:</strong> Las reseñas que otros usuarios te hayan dejado podrán ser anonimizadas pero no eliminadas, ya que pertenecen a la experiencia de otros usuarios.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>¿Cuánto tiempo tarda?</h2>
+            <p>Tu solicitud será procesada en un plazo máximo de <strong>30 días hábiles</strong>. Recibirás una confirmación por correo electrónico cuando la eliminación se haya completado.</p>
+            <p>Durante el período de procesamiento, tu cuenta será desactivada y no será visible para otros usuarios.</p>
+        </div>
+
+        <div class="card">
+            <h2>Cómo solicitar la eliminación</h2>
+            <p>Enviá un correo electrónico a nuestra dirección de soporte con el asunto <strong>"Eliminar mi cuenta"</strong> e incluí la siguiente información para verificar tu identidad:</p>
+            <ul>
+                <li>Tu <strong>nombre completo</strong> como figura en la app.</li>
+                <li>El <strong>correo electrónico</strong> registrado en tu cuenta.</li>
+                <li>El <strong>número de teléfono</strong> asociado a tu cuenta.</li>
+            </ul>
+
+            <div class="btn-center">
+                <a class="btn" href="mailto:soporte@laburar.tech?subject=Eliminar%20mi%20cuenta&body=Solicito%20la%20eliminaci%C3%B3n%20de%20mi%20cuenta%20de%20LaburAR.%0A%0ANombre%20completo%3A%20%0ACorreo%20electr%C3%B3nico%3A%20%0AN%C3%BAmero%20de%20tel%C3%A9fono%3A%20">
+                    Solicitar eliminación de cuenta
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Contacto</h2>
+            <p>Si tenés alguna duda sobre el proceso de eliminación, podés escribirnos a:</p>
+            <p><a href="mailto:soporte@laburar.tech">soporte@laburar.tech</a></p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 LaburAR. Todos los derechos reservados.</p>
+            <p style="margin-top: 8px;"><a href="privacy-policy.html">Política de Privacidad</a></p>
+        </div>
+    </div>
+</body>
+</html>
