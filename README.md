@@ -1,2 +1,2 @@
 # LaburAR-legal
-Privacy policy for LaburAR
+Privacy policy for LaburAR.
