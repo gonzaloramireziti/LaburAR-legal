@@ -107,6 +107,27 @@
                 <li><strong>Biografía y servicios</strong> — solo para profesionales, para describir su oferta.</li>
             </ul>
 
+            <h3>Datos de verificación de identidad (solo profesionales)</h3>
+            <p>Para garantizar la seguridad de la comunidad, los profesionales que deseen ofrecer servicios deben verificar su identidad. En este proceso se recopilan:</p>
+            <ul>
+                <li><strong>Fotografía del frente del DNI</strong> — documento nacional de identidad argentino.</li>
+                <li><strong>Fotografía del dorso del DNI</strong> — incluyendo el código de barras (PDF417) o zona de lectura mecánica (MRZ).</li>
+                <li><strong>Fotografía tipo selfie del rostro</strong> — utilizada para comparar con la foto del DNI y confirmar que quien se registra es el titular del documento.</li>
+            </ul>
+            <div class="highlight">
+                <p><strong>Comparación facial automatizada:</strong> LaburAR utiliza tecnología de comparación facial para contrastar la selfie con la fotografía del DNI. Este proceso genera un porcentaje de similitud que se utiliza exclusivamente para verificar tu identidad. No se utiliza reconocimiento facial masivo ni se compara tu rostro contra bases de datos de terceros.</p>
+            </div>
+            <p>Estos datos se procesan con tu consentimiento explícito, otorgado antes de iniciar el proceso de verificación. Podés optar por no verificar tu identidad, pero en ese caso no podrás ofrecer servicios en la plataforma.</p>
+
+            <h3>Datos de verificación de matrícula profesional (solo profesionales de gas y electricidad)</h3>
+            <p>Los profesionales que ofrezcan servicios regulados (gas o electricidad) deben verificar su matrícula habilitante. Se recopilan:</p>
+            <ul>
+                <li><strong>Fotografía sosteniendo la credencial de matrícula</strong> — donde se vea el rostro del profesional y la credencial física.</li>
+                <li><strong>Número de matrícula</strong> — para validar la habilitación profesional.</li>
+                <li><strong>Tipo de servicio</strong> — gas o electricidad.</li>
+            </ul>
+            <p>La verificación de matrículas es realizada manualmente por nuestro equipo de revisión interno.</p>
+
             <h3>Datos recopilados automáticamente</h3>
             <ul>
                 <li><strong>Ubicación</strong> — se utiliza para mostrar profesionales cercanos y calcular distancias. Solo se accede con tu permiso explícito.</li>
@@ -123,6 +144,8 @@
                 <li>Facilitar la comunicación entre clientes y profesionales (chat, notificaciones).</li>
                 <li>Mostrar reseñas y valoraciones de los profesionales.</li>
                 <li>Verificar la identidad del usuario mediante SMS durante el registro.</li>
+                <li>Verificar la identidad del profesional mediante documento de identidad y comparación facial, con el fin de proteger la seguridad de toda la comunidad.</li>
+                <li>Verificar la habilitación profesional de matriculados en gas y electricidad.</li>
                 <li>Enviar notificaciones sobre el estado de tus pedidos.</li>
                 <li>Mejorar el funcionamiento y la experiencia de la aplicación.</li>
             </ul>
@@ -135,8 +158,9 @@
             </div>
             <p>Tu información personal solo es visible para:</p>
             <ul>
-                <li><strong>Otros usuarios de la plataforma</strong> — nombre, foto de perfil, ubicación aproximada, reseñas y teléfono (solo cuando hay un pedido activo entre las partes).</li>
+                <li><strong>Otros usuarios de la plataforma</strong> — nombre, foto de perfil, ubicación aproximada, reseñas y teléfono (solo cuando hay un pedido activo entre las partes). Los datos de verificación (fotos de DNI, selfie, matrículas) <strong>nunca</strong> se comparten con otros usuarios.</li>
                 <li><strong>Proveedores de servicios esenciales</strong> — como el servicio de envío de SMS para verificación de cuenta. Estos proveedores solo reciben la información mínima necesaria para cumplir su función.</li>
+                <li><strong>Equipo interno de revisión</strong> — las verificaciones de matrícula son revisadas por personal autorizado de LaburAR, sujeto a obligaciones de confidencialidad.</li>
             </ul>
         </div>
 
@@ -144,7 +168,7 @@
             <h2>5. Permisos de la aplicación</h2>
             <ul>
                 <li><strong>Ubicación</strong> — necesaria para buscar profesionales cercanos. Podés revocar este permiso en cualquier momento desde la configuración de tu dispositivo.</li>
-                <li><strong>Cámara y galería de fotos</strong> — para subir fotos de perfil y fotos en reseñas. Solo se accede cuando vos lo iniciás.</li>
+                <li><strong>Cámara y galería de fotos</strong> — para subir fotos de perfil, fotos en reseñas, y para capturar las imágenes necesarias durante el proceso de verificación de identidad y matrícula profesional. Solo se accede cuando vos lo iniciás.</li>
                 <li><strong>Notificaciones</strong> — para informarte sobre el estado de tus pedidos, mensajes nuevos y actualizaciones importantes.</li>
             </ul>
         </div>
@@ -158,6 +182,15 @@
         <div class="card">
             <h2>7. Retención de datos</h2>
             <p>Conservamos tu información personal mientras tu cuenta esté activa. Si decidís eliminar tu cuenta, tus datos personales serán eliminados de nuestros sistemas, salvo aquellos que debamos conservar por obligación legal.</p>
+
+            <h3>Datos de verificación de identidad</h3>
+            <p>Las fotografías del DNI, la selfie y los datos extraídos del documento se conservan mientras tu cuenta esté activa y tu identidad esté verificada. Al eliminar tu cuenta, estos datos se eliminan de forma permanente junto con el resto de tu información personal.</p>
+
+            <h3>Datos de verificación de matrícula</h3>
+            <p>Las fotografías de la matrícula y el número de habilitación se conservan mientras tu cuenta esté activa. Al eliminar tu cuenta, estos datos se eliminan de forma permanente.</p>
+
+            <h3>Datos de comparación facial</h3>
+            <p>El resultado de la comparación facial (porcentaje de similitud) se almacena como parte del registro de verificación. No se almacenan plantillas biométricas ni vectores faciales independientes. Al eliminar tu cuenta, este dato se elimina junto con el resto de la información de verificación.</p>
         </div>
 
         <div class="card">
@@ -167,7 +200,8 @@
                 <li><strong>Acceder</strong> a tu información personal desde tu perfil en la app.</li>
                 <li><strong>Modificar</strong> tus datos en cualquier momento.</li>
                 <li><strong>Revocar permisos</strong> (ubicación, cámara, notificaciones) desde la configuración de tu dispositivo.</li>
-                <li><strong>Solicitar la eliminación</strong> de tu cuenta y datos asociados contactándonos.</li>
+                <li><strong>Revocar el consentimiento</strong> para el procesamiento de datos de verificación de identidad. Esto implicará la pérdida del estado verificado y la imposibilidad de ofrecer servicios.</li>
+                <li><strong>Solicitar la eliminación</strong> de tu cuenta y todos los datos asociados, incluyendo fotos del DNI, selfie, datos de verificación y matrículas profesionales.</li>
             </ul>
         </div>
 
